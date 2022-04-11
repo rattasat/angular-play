@@ -1,0 +1,7 @@
+<p>parent data list</p>
+<ul>
+  <li *ngFor="let data of dataList">
+    <p>{{data}}</p>
+    <app-child [data]="data" (deleteData)="deleteData($event)"></app-child>
+  </li>
+</ul>
