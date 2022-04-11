@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LifecycleComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
